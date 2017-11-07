@@ -15,12 +15,12 @@ th {
     background-color: #B0BEC5;
   }
   
-  .avaliacaodoAluno {
+  .autoavaliacaoAluno {
     text-align: center;
     width: 20px;
   }
   
-  .avaliacaodoAluno input {
+  .autoavaliacaoAluno input {
     border-radius: 10px;
     width: 40px;
   }

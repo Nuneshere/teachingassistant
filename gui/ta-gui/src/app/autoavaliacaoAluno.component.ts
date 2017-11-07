@@ -4,12 +4,12 @@ import { NgModule, Component, OnInit} from '@angular/core';
 
 
 @Component({
-    selector: 'AvaliacaodoAluno',
-    templateUrl: './avaliacaodoAluno.component.html',
-    styleUrls: ['./avaliacaodoAluno.component.css']
+    selector: 'autoavaliacaoAluno',
+    templateUrl: './autoavaliacaoAluno.component.html',
+    styleUrls: ['./autoavaliacaoAluno.component.css']
   })
 
-  export class AvaliacaodoAluno implements OnInit {
+  export class AutoavaliacaoAluno implements OnInit {
     constructor(private alunoService: AlunoService) {}
 
     alunos: Aluno[];
@@ -20,7 +20,7 @@ import { NgModule, Component, OnInit} from '@angular/core';
             .catch(erro => alert(erro));
     }
 
-    renovaAluno(aluno: Aluno): void {
+    atualizarAluno(aluno: Aluno): void {
     this.alunoService.atualizar(aluno)
         .catch(erro => alert(erro));
     }

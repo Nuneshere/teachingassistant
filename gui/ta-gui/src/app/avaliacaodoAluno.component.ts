@@ -20,7 +20,7 @@ import { NgModule, Component, OnInit} from '@angular/core';
             .catch(erro => alert(erro));
     }
 
-    atualizarAluno(aluno: Aluno): void {
+    renovaAluno(aluno: Aluno): void {
     this.alunoService.atualizar(aluno)
         .catch(erro => alert(erro));
     }

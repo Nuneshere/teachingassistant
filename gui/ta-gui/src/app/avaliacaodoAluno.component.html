@@ -1,0 +1,17 @@
+<table>
+    <tr>
+       <th>Nome</th>
+       <th>CPF</th>
+       <th>e-mail</th>
+       <th>Requisitos</th>
+       <th>Gerência de Configuração</th>
+    </tr>
+    <tr style="margin-top:20px;" *ngFor="let a of alunos">
+       <td>{{a.nome}}</td>
+       <td>{{a.cpf}}</td>
+       <td>{{a.email}}</td>
+       <td class="avaliacaodoAluno"><input [(ngModel)]="a.avaliacaodoAluno['requisitos']" (change)="atualizarAluno(a)"></td>
+       <td class="avaliacaodoAluno"><input [(ngModel)]="a.avaliacaodoAluno['gerDeConfiguracao']" (change)="atualizarAluno(a)"></td>
+    </tr>
+    </table>
+    

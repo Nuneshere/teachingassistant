@@ -1,0 +1,27 @@
+th {
+    background-color: #455A64;
+    color: #ffffff;
+    border-radius: 20px;
+    margin-right:20px;
+  }
+  
+  td, th {
+    padding: 15px;
+    margin-top:10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tr:hover {
+    background-color: #B0BEC5;
+  }
+  
+  .avaliacaodoAluno {
+    text-align: center;
+    width: 20px;
+  }
+  
+  .avaliacaodoAluno input {
+    border-radius: 10px;
+    width: 40px;
+  }
+  
